@@ -190,7 +190,7 @@ const technologies = {
   environments: [
     {
       name: "Node.js",
-      icon: "/assets/tech/Node.svg",
+      icon: "/assets/tech/nodejs.svg",
       link: "https://nodejs.org/en",
     },
   ],
@@ -219,7 +219,7 @@ const technologies = {
     },
     {
       name : "Render",
-      icon : "/assets/tech/render.png",
+      icon : "/assets/tech/Render.png",
       link : "https://render.com/"
     }
   ]
@@ -305,7 +305,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "next.js",
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React.js",
         color: "green-text-gradient",
       },
       {
@@ -313,12 +317,29 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "fabricjs",
+        name: "GeminiAI",
         color: "orange-text-gradient",
       },
       {
-        name: "liveblocks",
+        name: "AWS S3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "YoutubeAPI",
+        color: "orange-text-gradient",
+      },
+     
+      {
+        name: "Express.js",
         color: "yellow-text-gradient",
+      },
+      {
+        name: "Sentiment",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "orange-text-gradient",
       },
     ],
     image: "/assets/projects/watchwise.png",
@@ -343,7 +364,7 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "OAuth",
+        name: "OAuth2.0",
         color: "orange-text-gradient",
       },
       {
@@ -353,7 +374,19 @@ const projects = [
       {
         name: "Peer.js",
         color: "pink-text-gradient",
-      }
+      },
+      {
+        name: "Javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "WebRTC",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "ejs",
+        color: "yellow-text-gradient",
+      },
     ],
     image: "/assets/projects/zoom.png",
     source_code_link: "https://github.com/Aryan768/Zoom-Clone-",
@@ -369,6 +402,10 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
+        name: "node.js",
+        color: "orange-text-gradient",
+      },
+      {
         name: "react",
         color: "green-text-gradient",
       },
@@ -376,12 +413,9 @@ const projects = [
         name: "tailwindcss",
         color: "pink-text-gradient",
       },
+      
       {
-        name: "node.js",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tanstack/react-query",
+        name: "reacthooks",
         color: "yellow-text-gradient",
       },
     ],
