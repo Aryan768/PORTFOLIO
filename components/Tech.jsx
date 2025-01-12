@@ -13,6 +13,7 @@ const tech = [
   technologies.databases,
   technologies.tools,
   technologies.environments,
+  technologies.Cloud
 ];
 
 const techVariants = [
@@ -22,6 +23,7 @@ const techVariants = [
   "Databases",
   "Tools",
   "Environments",
+  "Cloud"
 ];
 
 function Tech() {
@@ -95,7 +97,7 @@ function Tech() {
         >
           {techNames}
         </motion.div>
-        <div className="w-[2px] h-[400px] dark:bg-ctnSecondaryDark bg-ctnSecondaryLight rounded-lg md:flex hidden mx-8" />
+        <div className="w-[2px] h-[505px] dark:bg-ctnSecondaryDark bg-ctnSecondaryLight rounded-lg md:flex hidden mx-8" />
         <div className="md:w-[80%] w-full pl-2 h-full flex flex-col gap-8">
           {languages}
         </div>

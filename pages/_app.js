@@ -23,12 +23,12 @@ export default function App({ Component, pageProps }) {
 		}
 	}, [loading]);
 
-	const title = "Portfolio | Shivam Sharma";
+	const title = "Portfolio | Aryan Bhatia";
 	const description =
-		"Hello! I'm Shivam Sharma, a passionate web developer and problem solver. Welcome to my portfolio";
+		"Hello! I'm Aryan Bhatia, a passionate developer and problem solver. Welcome to my portfolio";
 	const avatar =
-		"https://res.cloudinary.com/dyle3hnpw/image/upload/v1696091629/portfolio/WhatsApp_Image_2023-09-30_at_10.02.55_PM_jk44v9.jpg";
-	const url = "https://shivam-sharma-myportfolio.vercel.app/";
+		"";
+	const url = "/assets/mypic.jpg";
 
 	return (
 		<>
@@ -54,23 +54,23 @@ export default function App({ Component, pageProps }) {
 				<meta property="twitter:title" content={title} />
 				<meta property="twitter:description" content={description} />
 
-				<link rel="canonical" href={url} />
+				<link rel="canonical" href="/assets/mypic.jpg" />
 				<link
-					rel="apple-touch-icon"
+					rel="mypic"
 					sizes="180x180"
-					href="/assets/icons/favicon/apple-touch-icon.png"
+					href="/assets/icons/favicon/mypic.jpg"
 				/>
 				<link
 					rel="icon"
-					type="image/png"
+					type="image/jpg"
 					sizes="32x32"
-					href="/assets/icons/favicon/favicon-32x32.png"
+					href="/assets/icons/favicon/mypic.jpg"
 				/>
 				<link
 					rel="icon"
-					type="image/png"
+					type="image/jpg"
 					sizes="16x16"
-					href="/assets/icons/favicon/favicon-16x16.png"
+					href="/assets/icons/favicon/mypic.jpg"
 				/>
 				<link
 					rel="manifest"

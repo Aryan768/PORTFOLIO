@@ -38,11 +38,11 @@ const services = [
     icon: <FullStackIcon />,
   },
   {
-    title: "Frontend Developer",
+    title: "Backend Developer",
     icon: <FrontendIcon />,
   },
   {
-    title: "Backend Developer",
+    title: "Frontend Developer",
     icon: <BackendIcon />,
   },
   {
@@ -61,15 +61,18 @@ const services = [
 
 const technologies = {
   languages: [
+    
+    
+    
     {
-      name: "HTML5",
-      icon: "/assets/tech/html5.svg",
-      link: "https://html.spec.whatwg.org/multipage/",
+      name: "C",
+      icon: "/assets/tech/c.svg",
+      link: "https://en.cppreference.com/w/c",
     },
     {
-      name: "CSS3",
-      icon: "/assets/tech/css3.svg",
-      link: "https://www.w3.org/Style/CSS/Overview.en.html",
+      name: "C++",
+      icon: "/assets/tech/C++.svg",
+      link: "https://en.cppreference.com/w/c",
     },
     {
       name: "JavaScript",
@@ -81,26 +84,25 @@ const technologies = {
       icon: "/assets/tech/typescript.svg",
       link: "https://www.typescriptlang.org/",
     },
-    {
-      name: "C",
-      icon: "/assets/tech/c.svg",
-      link: "https://en.cppreference.com/w/c",
-    },
-    {
-      name: "Java",
-      icon: "/assets/tech/java.svg",
-      link: "https://www.java.com/en/",
-    },
+    
+  
     {
       name: "Python",
       icon: "/assets/tech/python.svg",
       link: "https://www.python.org/",
     },
     {
-      name: "PHP",
-      icon: "/assets/tech/php.png",
-      link: "https://www.php.net/",
+      name: "HTML5",
+      icon: "/assets/tech/html5.svg",
+      link: "https://html.spec.whatwg.org/multipage/",
     },
+    {
+      name: "CSS3",
+      icon: "/assets/tech/css3.svg",
+      link: "https://www.w3.org/Style/CSS/Overview.en.html",
+    },
+    
+ 
   ],
   frameworks: [
     {
@@ -118,17 +120,23 @@ const technologies = {
       icon: "/assets/tech/expressjs.png",
       link: "https://expressjs.com/",
     },
-    {
-      name: "Flutter",
-      icon: "/assets/tech/flutter.svg",
-      link: "https://flutter.dev/",
-    },
+ 
   ],
   libraries: [
     {
       name: "React",
       icon: "/assets/tech/react.svg",
       link: "https://react.dev/",
+    },
+    {
+      name: "Socket.IO",
+      icon: "/assets/tech/socketio.svg" ,
+      link: "",
+    },
+    {
+      name: "Peer.js",
+      icon: "/assets/tech/peerjs.avif" ,
+      link: "https://peerjs.com/#:~:text=The%20PeerJS%20library&text=PeerJS%20wraps%20the%20browser's%20WebRTC,connection%20to%20a%20remote%20peer.",
     },
     {
       name: "Three.js",
@@ -145,11 +153,7 @@ const technologies = {
       icon: "/assets/tech/framer.svg",
       link: "https://www.framer.com/motion/",
     },
-    {
-      name: "NextAuth.js",
-      icon: "/assets/tech/nextauthjs.png",
-      link: "https://next-auth.js.org/",
-    },
+
     {
       name: "Prisma",
       icon: "/assets/tech/prisma.svg",
@@ -186,7 +190,7 @@ const technologies = {
   environments: [
     {
       name: "Node.js",
-      icon: "/assets/tech/nodejs.svg",
+      icon: "/assets/tech/Node.svg",
       link: "https://nodejs.org/en",
     },
   ],
@@ -207,46 +211,58 @@ const technologies = {
       link: "https://www.mysql.com/",
     },
   ],
+  Cloud: [
+    {
+      name: "AWS",
+      icon : "/assets/tech/aws.svg",
+      link : "https://aws.amazon.com/getting-started/hands-on/build-react-app-amplify-graphql/"
+    },
+    {
+      name : "Render",
+      icon : "/assets/tech/render.png",
+      link : "https://render.com/"
+    }
+  ]
 };
 
 const experiences = [
   {
-    title: "Full Stack Developer",
-    company_name: "Tech Lead at GDSC MVJCE",
-    icon: "/assets/company/gdsc-logo.svg",
+    title: "Freelance",
+    company_name: "Uber Scaled Solutions",
+    icon: "/assets/company/uber-15.svg",
     iconBg: "#E6DEDD",
-    date: "July 2023 - Present",
+    date: "July 2024 - Present",
     points: [
-      "Currently serving as the Tech Lead of GDSC, responsible for guiding technical aspects, fostering collaboration, and contributing to strategic decisions.",
-      "Led induction programs, ensured new member alignment with GDSC's mission, and provided technical mentorship.",
-      "Developed GDSC MVJCE website, enhancing the organization's online visibility.",
-      "Spearheaded promotional campaigns, actively engaged with the GDSC community, and played a key role in planning and executing events.",
+      "Conducting Advance Prompt Engineering for Uber, focusing on creating and optimizing queries.",
+      "Improving AI response quality, efficiency, and relevance to align with user requirements.",
+      "Ensuring prompt engineering aligns with business objectives and enhances user requirements.",
+      
     ],
   },
   {
-    title: "Full Stack Developer Intern",
-    company_name: "Intern at DRDO CABS",
-    icon: "/assets/company/drdo-cabs.png",
+    title: "Intern ",
+    company_name: "Gurugram Police Cyber Security ",
+    icon: "/assets/company/police.svg",
     iconBg: "#E6DEDD",
-    date: "November 2023",
+   
     points: [
-      "Developed a Facility Bookings Manager for DRDO CABS using TypeScript, React, Node.js, Express, Prisma, and MySQL within a month.",
-      "Actively addressed client issues and queries, ensuring seamless integration with their platform and local cluster system.",
-      "Led the design and implementation of the frontend, providing a user-friendly interface for efficient facility management.",
-      "Collaborated with a backend intern throughout the internship to deliver a comprehensive solution tailored to DRDO CABS's needs.",
+      "Enhanced user authentication in an internal portal using Passport.js, OAuth, and Sign In with Google.",
+      "Implemented secure user sessions and cookie management, ensuring data integrity and privacy compliance",
+      "Collaborated on feature design, optimizing the user experience for seamless access and authentication.",
+      "Collaborated with a frontend intern throughout the internship to deliver a comprehensive solution .",
     ],
   },
   {
-    title: "Frontend Developer",
-    company_name: "Tech team member at GDSC MVJCE",
+    title: "Developer(Backend) + Member CSI JEMTEC",
+    company_name: "Tech team member at CSI JEMTEC",
     icon: "/assets/company/gdsc-logo.svg",
     iconBg: "#E6DEDD",
     date: "February 2022 - July 2023",
     points: [
       "Successfully planned and executed induction programs, providing new members with crucial information about the organization's goals and values.",
-      "Demonstrated web development expertise by conducting CSS workshops, equipping participants with practical web design and styling skills.",
-      "Played a crucial role in promoting GDSC events and actively collaborated with cross-functional teams to deliver high-quality projects, fostering teamwork and innovation.",
-      "Actively engaged with the GDSC community, assisted in workshops, and contributed to planning and managing GDSC events, ensuring their success and growth.",
+      "Involved in demonstration of web development expertise by conducting API Integration,Web3, CSS workshops, equipping participants with practical web design and styling skills.",
+      "Played a crucial role in promoting JIMS events and actively collaborated with cross-functional teams to deliver high-quality projects, fostering teamwork and innovation.",
+      "Actively engaged with the community, assisted in workshops, and contributed to planning and managing events, ensuring their success and growth.",
     ],
   },
 ];
@@ -280,9 +296,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "FigPro",
+    name: "WatchWise",
     description:
-      "FigPro is a web-based collaborative design tool similar to Figma, built using Next.js, TypeScript, Tailwind CSS, and LiveBlocks API, Fabric.js. With FigPro, teams can seamlessly collaborate on designing interfaces in real-time with a plethora of features.",
+      "WatchWise is a web-based platform offering video transcription (video to text) and video analysis. Upload or provide a video link for accurate transcription, leveraging AWS S3.Analyze any video or playlist link, including sentiment analysis of comments and automated playlist duration calculation. ",
     tags: [
       {
         name: "typescript",
@@ -305,47 +321,51 @@ const projects = [
         color: "yellow-text-gradient",
       },
     ],
-    image: "/assets/projects/fig-pro.png",
-    source_code_link: "https://github.com/Shivam-Sharma-1/FigPro",
-    deployed_link: "https://fig-pro-github.vercel.app",
+    image: "/assets/projects/watchwise.png",
+    source_code_link: "https://github.com/Aryan768/WatchWise/tree/new-feature-branch",
+    deployed_link: "https://https://watchwise4.onrender.com/",
   },
   {
-    name: "GDSC Website",
+    name: "Zoom Clone",
     description:
-      "Welcome to the official repository for the GDSC MVJCE Website, built with Next.js, Styled Components, and Prisma! This website serves as the central hub for all things tech-related at GDSC MVJCE. From insightful blog posts to incredible community projects, and from exciting tech events to getting to know our team, you'll find it all here.",
+      "Created a web-based application with Realtime Audio/Video rooms and chat functionality.Created using Peer.js, WebRTC and chat functionality using socket. Worked with Node.js and Express.js for backend of the application.  ",
     tags: [
       {
-        name: "next.js",
+        name: "Node.js",
         color: "blue-text-gradient",
       },
       {
-        name: "styled-components",
+        name: "EJS",
         color: "green-text-gradient",
       },
       {
-        name: "three.js",
+        name: "Express.js",
         color: "pink-text-gradient",
       },
       {
-        name: "prisma",
+        name: "OAuth",
         color: "orange-text-gradient",
       },
       {
-        name: "framer-motion",
+        name: "Socket",
         color: "yellow-text-gradient",
       },
+      {
+        name: "Peer.js",
+        color: "pink-text-gradient",
+      }
     ],
-    image: "/assets/projects/gdsc-website.png",
-    source_code_link: "https://github.com/GDSC-MVJCE/gdscmvjce-website.git",
-    deployed_link: "https://gdscmvjce.vercel.app/",
+    image: "/assets/projects/zoom.png",
+    source_code_link: "https://github.com/Aryan768/Zoom-Clone-",
+    deployed_link: "https://github.com/Aryan768/Zoom-Clone-",
   },
   {
-    name: "Facility Management System",
+    name: "Memory Puzzle",
     description:
-      "The Facility Management System is a comprehensive management solution developed using the MERN (MongoDB, Express.js, React, Node.js) stack. It allows users to book time slots in facilities and provides role-based access control for various functionalities.",
+      "Developed a memory based game using React where upon loading the game a grid of cards is displayed ,each containing a unique image .Click on card to reveal its hidden image.",
     tags: [
       {
-        name: "typescript",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
@@ -365,120 +385,48 @@ const projects = [
         color: "yellow-text-gradient",
       },
     ],
-    image: "/assets/projects/facility-manager.png",
+    image: "/assets/projects/MemoryPuzzle.png",
     source_code_link:
-      "https://github.com/Shivam-Sharma-1/Facility-Management-System",
+      "https://github.com/Aryan768/Memory-Puzzle",
     deployed_link:
-      "https://github.com/Shivam-Sharma-1/Facility-Management-System?tab=readme-ov-file#demo",
+      "https://aryanspuzzle.netlify.app/",
   },
-  // {
-  //   name: "Netflix Clone",
-  //   description:
-  //     "Netflix-Clone is a fully responsive web application that replicates the popular streaming platform Netflix. It is built using Next.js, Prisma, React, NextAuth.js, Tailwind CSS, MongoDB and TypeScript. This project aims to showcase the implementation of these technologies to create a feature-rich clone of Netflix.",
-  //   tags: [
-  //     {
-  //       name: "next.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "typescript",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "mongodb",
-  //       color: "orange-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/netflix-clone.png",
-  //   source_code_link: "https://github.com/Shivam-Sharma-1/Netflix-Clone.git",
-  //   deployed_link: "https://netflix-clone12345.vercel.app",
-  // },
-  // {
-  //   name: "Van-Life",
-  //   description:
-  //     "VanLife is a user-friendly website built with React that simplifies van searches. It is a web app used to browse different types of vans. It allows users to log in and offers convenient tag-based filtering for easy browsing.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mirage.js",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "firebase-firestore",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/vanlife.png",
-  //   source_code_link: "https://github.com/Shivam-Sharma-1/Van-Life.git",
-  //   deployed_link: "https://myvanlife.netlify.app",
-  // },
-  // {
-  // 	name: "Spooky-Run",
-  // 	description:
-  // 		"Spooky Run is a web based 2D arcade style game that allows players to play as a lost dog finding its way back home through a spooky forest. The game is built using vanilla JavaScript and utilizes HTML5 and the 'canvas' element to render graphics and handle user input.",
-  // 	tags: [
-  // 		{
-  // 			name: "html5",
-  // 			color: "blue-text-gradient"
-  // 		},
-  // 		{
-  // 			name: "css3",
-  // 			color: "green-text-gradient"
-  // 		},
-  // 		{
-  // 			name: "javascript",
-  // 			color: "pink-text-gradient"
-  // 		}
-  // 	],
-  // 	image: "/assets/projects/spooky-run.png",
-  // 	source_code_link: "https://github.com/Shivam-Sharma-1/Spooky-Run.git",
-  // 	deployed_link: "https://shivam-sharma-1.github.io/Spooky-Run"
-  // }
+ 
 ];
 
 const socials = [
   {
     id: "github",
     icon: <GithubIcon />,
-    link: "https://github.com/Shivam-Sharma-1",
+    link: "https://github.com/Aryan768",
   },
   {
     id: "linkedin",
     icon: <LinkedInIcon />,
-    link: "https://www.linkedin.com/in/shivamsharma77607",
+    link: "https://www.linkedin.com/in/aryan-bhatia-80994022b/",
   },
   {
     id: "x",
     icon: <XIcon />,
-    link: "https://twitter.com/Shivam_1_Sharma",
+    link: "https://x.com/aryanthesmart1?s=09",
   },
   {
     id: "instagram",
     icon: <InstagramIcon />,
-    link: "https://www.instagram.com/_.shivam._.here._",
+    link: "https://www.instagram.com/aryan.bhatia.7/",
   },
 ];
 
 const heroTexts = [
-  "React/Next.js developer",
-  500,
   "Freelancer",
   500,
   "Full-Stack developer",
   500,
-  "Frontend developer",
-  500,
   "Backend developer",
-  500,
-  "Tech Team Lead at GDSC MVJCE",
-  500,
+  600,
+  "Frontend developer",
+  400,
+  
 ];
 
 export {
